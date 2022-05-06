@@ -1,0 +1,70 @@
+header{
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    margin-left: 14.5vw;
+    background-color: #fff;
+    width: 70%;
+    height: 9vh;
+    left: 0;
+    top:0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Logo{
+    width: 45%;
+}
+.logo{
+    margin: 3vh 0;
+    
+}
+.fundo_procurar{
+    width: 50%;
+}
+.procurar{
+    background-color: #efefef;
+    width: 67%;
+    height: 5.5vh;
+    border-radius: 0.4vw;
+    margin: 2.2vh 0;
+    padding: 0 2vw 0 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.pesquisar[type="text"]{
+    background-color:#efefef;
+    font-family: 'Roboto';
+    border: none;
+    font-size: 2.5vh;
+   
+}
+textarea:focus, input:focus {
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+#lupa{
+    margin: 1.3vh 1vw;
+
+}
+.iconesHeader{
+    width: 30%;
+    margin: 2.6vh 0;
+    height: 3.4vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.iconesHeader img{
+    height: auto;
+}
+#efeito:hover{
+    opacity: 0.6;
+}
+
+
+
+  
+  

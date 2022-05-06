@@ -1,0 +1,93 @@
+.fundo{
+    width: 70%;
+    min-height: 20vh;
+    margin: auto;
+    background-color: #fff;
+   display: flex;
+   flex-direction: row;
+   align-content: center;
+}
+.Carrossel {
+    position: absolute;
+    z-index: 1;
+    width: 44.7%;
+    height: 100px;
+    background-color: rgb(255,255,255);
+    border: #d3d3d3 1px solid;
+    border-radius: 5px;
+    margin-top: 25px;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.Carrossel::-webkit-scrollbar {
+    display: none;
+}
+
+.itens_stories {
+    position: relative;
+    width: 90px;
+    height: 90px;
+    flex: none;
+    margin-top: 2vh;
+}
+
+.img_stories img {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    padding-top: 2px;
+    object-fit: cover;
+    margin-left: 1.6vw;
+}
+
+.name {
+    font-size: 14px;
+    color: #222;
+    opacity: 0.9;
+    margin-top: -0.2vh;
+    margin-left: 1.8vw;
+    font-family: 'Roboto';
+    font-size: 1.9vh;
+}
+
+.buttons {
+    position: absolute;
+    z-index: 2;
+    width: 41%;
+    height: 20px;
+    margin-top: 65px;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.buttons button{
+    background: transparent;
+    border: 0;
+}
+
+
+.buttons button:first-child img {
+    transform: rotate(180deg);
+}
+
+.seta_esquerda {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.seta_direita {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
