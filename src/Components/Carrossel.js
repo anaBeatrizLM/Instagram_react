@@ -16,7 +16,7 @@ function Carrossel(){
     const carousel = useRef(null);
 
     useEffect(() => {
-        fetch('http://localhost:3000/static/stories.json')
+        fetch('http://localhost:3000/static/stories.json' || "https://instagram-pink.vercel.app/static/stories.json")
         .then((response) => response.json())
         .then(setData);
     }, []);
